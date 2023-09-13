@@ -1,0 +1,146 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[margin=10mm]{geometry}
+\raggedbottom
+\usepackage{palatino}
+\fontfamily{SansSerif}\selectfont
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\definecolor{mygrey}{gray}{0.75}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+
+\usepackage{booktabs, makecell, tabularx}
+\renewcommand\arraystretch{1.3}
+\usepackage{verbatim}
+\usepackage{pbox}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*}
+
+\usepackage{url}
+
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+\pdfgentounicode=1
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resheading}[1]{\medskip
+    \colorbox{mygrey}{\begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}\small 
+                        \textbf{#1 \vphantom{p\^{E}}}
+                      \end{minipage}}
+                            \par\medskip}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+    \textsc{\textbf{#1}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\linespread{1.25}
+
+\begin{center} \fontsize{15}{15} \textbf{KHUSHI SAXENA} \end{center}
+Roll No.: \textbf{202151078} \\
+Mobile No.: \textbf{9837987749} \\
+Email-id : \textbf{khushi24saxena@gmail.com} \\
+Institute Email-id : \textbf{202151078@iiitvadodara.ac.in} \\
+Github Profile : \href{https://github.com/khushiisaxena}{https://github.com/khushiisaxena} \\
+LinkedIn Profile : \href{https://www.linkedin.com/in/khushi-saxena-a965ba22a/}{https://www.linkedin.com/in/khushi-saxena-a965ba22a} \\
+
+
+\resheading{\textbf{EDUCATION} }
+\begin{tabularx}{\linewidth}{l X l l}
+    \midrule
+\textbf{Year}
+     & \textbf{Degree}  & \textbf{Institute}   & \textbf{CPI/Percentage}   \\
+    \midrule
+2021 - 2025
+     & B.Tech (Computer Science)
+                        & Indian Institute of Information Technology,Vadodara            & 7.33 CPI         \\
+
+2020 & 12$^{th}$ CBSE 
+                        & Kendriya Vidyalaya NER, Bareilly    & 94.2 \%            \\
+
+2018 & 10$^{th}$ CBSE 
+                        & Kendriya Vidyalaya NER, Bareilly    & 95.2 \%           \\
+    \midrule
+\end{tabularx}
+
+\resheading{\textbf{INTERNSHIPS AND WORK EXPERIENCE}}
+\begin{itemize}
+    \item \textbf{Quality Assurance Intern, AMAZON} \hfill \textit{(May 2023 - July 2023)}
+    \begin{itemize}
+        \item Worked on UI Automation of test cases
+
+
+        \item Tools and Technologies: Selenium 
+
+    \end{itemize}
+\end{itemize}
+
+            
+
+\resheading{PROJECTS}
+
+ \begin{itemize}
+    \item \textbf{Hotel Booking App}
+    \begin{itemize}
+        \item  Implemented a user-friendly interface for users to search for hotels based on location, dates, and budget.
+        \item Integrated Google Maps API to display the hotel's location and nearby attractions.
+    \end{itemize}
+\end{itemize}
+
+    \begin{itemize}
+    \item \textbf{AR - Augmented Lab}
+    \begin{itemize}
+        \item  Developed a user-friendly interface for students to interact with virtual lab equipment and perform experiments.
+        \item     Implemented AR markers and image recognition to create realistic and interactive 3D models of lab equipment.
+    \end{itemize}
+\end{itemize}
+
+\resheading{TECHNICAL SKILLS}
+    \begin{itemize}
+    \item \textbf{Programming : }
+    {Java, C, Python}
+
+    \item \textbf{Web Development : }
+     {HTML, CSS, JavaScript}
+
+    \item \textbf{DataBases : }
+     {MySQL} 
+
+     \item \textbf{Familiar : }
+     {Data Structure, Algorithms, Selenium, Problem Solving}
+    
+\end{itemize}
+
+\resheading{ACHIEVEMENTS} 
+\begin{itemize}
+     \item Harvard WECode Scholar 2023
+     \item Girls Winner at CodeStrike (Intra-College Coding Competition) 
+    \item Amazon FFE Scholar: Been in the top 300 students, selected for Amazon's Internship, Mentorship, and Training Program  
+    
+\end{itemize}
+
+\resheading{RESEARCH} 
+\begin{itemize}
+    \item Conducted a research study and developed a survey instrument to collect data on the Impact of E-Learning On Students And Teachers during Covid-19 and after the pandemic.
+
+\end{itemize}
+
+\resheading{EXTRA CURRICULAR ACTIVITIES}
+    \begin{itemize}
+    \item Hobbies : Swimming, Dancing, Photography, Singing
+\item   Active member at Literature Committee, Cultural Committee, Dance Club, Photorgraphy Club and Art Club of IIIT Vadodara
+
+    \end{itemize}
+
+\end{document}
